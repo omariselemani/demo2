@@ -1,0 +1,306 @@
+body{margin: 0;padding: 0;}
+.container{ 
+    background-color:rgb(8, 8, 8);
+    
+}
+.header{height: 10%;
+    float: left;
+    width: 25%; 
+    margin-left: 10px;
+}
+.header h1{color:white;}
+
+.navigation ul{
+    list-style-type: none;
+    height: 10%; 
+    margin-left: 70%;
+}
+.navigation ul li{
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color:;
+
+    padding: 5px;
+    transition: padding 1s.
+    
+}
+.navigation ul li a:visited{
+    text-decoration: none;
+    color:white;
+
+    padding: 5px;
+    background-color: rgb(136, 23, 23);
+    transition: padding 5s.
+    
+}
+
+.navigation ul li a:hover{
+    text-decoration: none;
+    color:black;
+    border: 1px solid black;
+    padding: 9px;
+    background-color: white;
+    transition: padding 5s.;
+}
+.about_me {
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    padding: 30px;
+    font-size: large;
+    float: left;
+    
+
+}
+#image img{
+    width: 30%;
+    height: 350px;
+    float: right;
+    margin-right: 50px;
+}
+#image img:hover{
+    width: 30%;
+    height: 350px;
+    float: right;
+    margin-right: 50px;
+    border-radius: 70px;
+    border-bottom: #f7fafc;
+}
+
+#services{; margin-top: 400px;}
+
+#hd h1{text-align: center;height: 50px;width: 100%;}
+.headerservice{
+    background-color: black;
+    color: white;
+    float: left;
+    width: 20%;
+    padding: 20px;
+    margin-left:8%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 250px;
+    border-radius: 8px;
+    } 
+   
+        
+
+#education {margin-left: 55px;}
+#form{border: 1px solid black;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 15px; 
+    margin-bottom: 15px;
+}
+input{background-color: rgb(7, 7, 7);padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #f4f7f8;
+    font-size: 15px;
+    text-align: center;
+}
+
+textarea{background-color: rgb(7, 7, 7);
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(242, 248, 243);
+}
+#message{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+input:hover{background-color: rgb(19, 4, 44);padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    color: #f7fafc;
+    font-size: 15px;
+    transition: 6;
+}
+textarea{background-color: rgb(7, 7, 7);
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(242, 248, 243);
+}
+#message:hover{
+    background-color: rgb(1, 1, 24);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+#form:hover{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    background-color: rgb(242, 241, 247);
+    border-radius: 30px;
+    
+}
+#headf h1{
+    
+    
+}
+.footer{
+    background-color: rgb(7, 0, 0);
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+    
+}
+
+
+
+
+
+
+
+
+
+.aboutMe{
+    
+    background-color: black;  
+    text-align: center;
+    color: white;
+    width: 300;
+    height: 200px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 280px;
+    
+}
+
+.contactme{
+    background-color: black;   
+    text-align: center;
+    color: white;
+    width: 300;
+    height: 200px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 50px;
+
+}
+
+.socialmedia{
+    background-color: rgb(172, 143, 143);  
+    
+    text-align: center;
+    color: white;
+    width: 300;
+    height: 200px;
+    border-radius: 10px;float: left;
+    margin-left: 50px;
+
+
+}
+.socialmedia ul{
+   list-style-type: none;
+
+
+}
+.socialmedia ul li{
+    display: inline-block;
+ }
+ .socialmedia img{
+    
+ }
+img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    border: 1px solid rgb(12, 12, 12);
+    border-radius: 7px;
+    border-radius: 7px;
+    margin: 0;padding: 0;
+}
+
+@media screen and (max-width:1200px){
+    body{background-color: rgb(110, 87, 87);}
+
+        .header{height: 10%;
+            float: left;
+            width: 50%; 
+            margin-left: 10px;
+            background-color: aqua;
+        }
+
+
+
+
+
+
+        
+        .navigation{
+              background-color: yellow;
+              margin-top: 
+        }
+       
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .about_me {
+            width: 400px;
+            height: 300px;
+            text-align: center;
+            padding: 30px;
+            font-size: large;
+            float: left;
+            background-color: antiquewhite;
+            
+        
+        }
+        #image img{
+            width: 400px;
+            height: 300px;
+            float: left;
+            padding: 30px;
+            
+            
+        }
+        #image img:hover{
+            width: 400px;
+            height: 300px;
+            float: left;
+            padding: 30px;
+            
+        }
+        
+        
+
+}
